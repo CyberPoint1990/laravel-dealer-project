@@ -1,0 +1,280 @@
+[06-Mar-2026 09:14:59 UTC] PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in phar:///usr/local/bin/composer/vendor/react/promise/src/functions.php on line 300
+[06-Mar-2026 11:03:37 UTC] PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in phar:///usr/local/bin/composer/vendor/react/promise/src/functions.php on line 300
+[06-Mar-2026 11:05:47 UTC] PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in phar:///usr/local/bin/composer/vendor/react/promise/src/functions.php on line 300
+[06-Mar-2026 11:05:51 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:51 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:51 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:52 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:52 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:52 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:52 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:53 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:53 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:54 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:54 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:54 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:54 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:55 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:55 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:56 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:56 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:57 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:57 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:57 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:57 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:58 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:58 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:58 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:58 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:59 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:59 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:05:59 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:59 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:00 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:00 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:01 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:01 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:01 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:01 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:02 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:02 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:02 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:02 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:03 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:03 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:03 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:04 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:04 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:04 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:04 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:04 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:04 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:05 UTC] PHP Warning:  include(/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php): Failed to open stream: No such file or directory in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:05 UTC] PHP Warning:  include(): Failed opening '/home/gwwotmty/dealer.khalsagro.com/vendor/composer/../sebastian/version/src/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php85/root/usr/share/pear') in /home/gwwotmty/dealer.khalsagro.com/vendor/composer/ClassLoader.php on line 576
+[06-Mar-2026 11:06:05 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Version" not found in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php:37
+Stack trace:
+#0 /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php(48): PHPUnit\Runner\Version::id()
+#1 /home/gwwotmty/dealer.khalsagro.com/vendor/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php(10): PHPUnit\Runner\Version::series()
+#2 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(41): require('/home/gwwotmty/...')
+#3 /home/gwwotmty/dealer.khalsagro.com/vendor/composer/autoload_real.php(45): {closure:ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader():37}('a1cfe24d14977df...', '/home/gwwotmty/...')
+#4 /home/gwwotmty/dealer.khalsagro.com/vendor/autoload.php(22): ComposerAutoloaderInitc514d8f7b9fc5970bdd94287905ef584::getLoader()
+#5 /home/gwwotmty/dealer.khalsagro.com/artisan(10): require('/home/gwwotmty/...')
+#6 {main}
+  thrown in /home/gwwotmty/dealer.khalsagro.com/vendor/phpunit/phpunit/src/Runner/Version.php on line 37
+[06-Mar-2026 11:06:15 UTC] PHP Deprecated:  Case statements followed by a semicolon (;) are deprecated, use a colon (:) instead in phar:///usr/local/bin/composer/vendor/react/promise/src/functions.php on line 300

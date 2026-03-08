@@ -1,0 +1,235 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --brand-primary: #448aff;
+    --sidebar-bg: #2b3a4a;
+    --sidebar-hover: #344455;
+    --text-muted: #8e99a5;
+    --card-primary: #0d6efd;
+    --card-info: #0dcaf0;
+    --card-success: #198754;
+    --card-vacancy: #448aff;
+}
+
+[data-theme="dark"] {
+    --card-primary: #2c3e50;
+    --card-info: #2c3e50;
+    --card-success: #2c3e50;
+    --card-vacancy: #2c3e50;
+    --card-border: #3e4b5b;
+}
+
+body {
+    background-color: #f2f7fb;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* --- Layout Structure --- */
+#wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-width: 260px;
+    max-width: 260px;
+    background-color: var(--sidebar-bg);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column; /* Footer ko niche rakhne ke liye */
+    box-shadow: 4px 0 10px rgba(0,0,0,0.1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1000;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    flex-grow: 1;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- Sidebar Components --- */
+.sidebar-heading {
+    padding: 24px;
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.brand-logo {
+    background: var(--brand-primary);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#sidebarAccordion {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+/* Custom Scrollbar for Sidebar */
+#sidebarAccordion::-webkit-scrollbar {
+    width: 4px;
+}
+#sidebarAccordion::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+/* --- Navigation & Menu Items --- */
+.nav-title {
+    padding: 20px 24px 10px;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+    color: #ced4da !important;
+    border: none !important;
+    padding: 14px 24px !important;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease !important;
+}
+
+.list-group-item i:first-child {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.list-group-item:hover, .list-group-item.active {
+    background-color: var(--sidebar-hover) !important;
+    color: white !important;
+}
+
+.list-group-item.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    background: var(--brand-primary);
+    border-radius: 0 4px 4px 0;
+}
+
+/* Sub-menu styling */
+.sub-menu-item {
+    background-color: #24313e !important;
+    padding: 10px 20px 10px 60px !important;
+    font-size: 13px;
+}
+
+.sub-menu-item:hover {
+    color: var(--brand-primary) !important;
+    padding-left: 65px !important;
+}
+
+/* --- UI Elements & Cards --- */
+.card-stat {
+    transition: all 0.3s ease;
+    min-height: 110px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 5px;
+}
+
+.bg-stat-primary { background-color: var(--card-primary) !important; }
+.bg-stat-info    { background-color: var(--card-info) !important; }
+.bg-stat-success { background-color: var(--card-success) !important; }
+.bg-stat-vacancy { background-color: var(--card-vacancy) !important; }
+
+[data-theme="dark"] .card-stat {
+    border: 1px solid var(--card-border) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* --- Search & Navbar --- */
+.search-container {
+    background: #f1f3f6;
+    border-radius: 8px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.search-container:focus-within {
+    background: #ffffff;
+    box-shadow: 0 0 0 2px rgba(68, 138, 255, 0.2);
+}
+
+[data-theme="dark"] .search-container { background: #2c3e50; }
+[data-theme="dark"] .search-container input { color: #ffffff; }
+
+/* --- Sidebar Footer & Toggle Logic --- */
+.user-panel {
+    background: rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+.user-panel:hover { background: rgba(0, 0, 0, 0.2); cursor: pointer; }
+
+#wrapper.toggled #sidebar-wrapper { margin-left: -260px; }
+
+@media (max-width: 991.98px) {
+    #sidebar-wrapper { margin-left: -260px; }
+    #wrapper.toggled #sidebar-wrapper { margin-left: 0; }
+}
+/* Sidebar aur Table Icons Fix */
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.sub-menu-item.active {
+    background: rgba(68, 138, 255, 0.1);
+    color: #448aff !important;
+    border-right: 3px solid #448aff;
+}
+/* Sidebar ko fix karne ke liye */
+#wrapper {
+    display: flex;
+    height: 100vh; /* Screen ki poori height */
+    overflow: hidden; /* Bahar ka scroll band */
+}
+
+#sidebar-wrapper {
+    width: 250px; /* Ya jo bhi aapki width hai */
+    height: 100vh;
+    overflow-y: auto; /* Agar sidebar ke items zyada hon to uske andar scroll aaye */
+    position: sticky;
+    top: 0;
+    flex-shrink: 0; /* Sidebar ko dabne se rokne ke liye */
+    background: #2c3e50; /* Aapka sidebar color */
+}
+
+/* Main Content Area ko scrollable banane ke liye */
+#page-content-wrapper {
+    flex-grow: 1;
+    height: 100vh;
+    overflow-y: auto; /* Sirf content area scroll hoga */
+    background-color: #f8f9fa;
+}
+
+/* Scrollbar ko thoda clean dikhane ke liye (Optional) */
+#page-content-wrapper::-webkit-scrollbar {
+    width: 6px;
+}
+#page-content-wrapper::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+}
